@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: yellowgreen;
+}
+.heart{
+    margin-left: 100px;
+    position:relative;
+    height:160px;
+    width:100px;
+    background: #d16ba5;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(45deg);
+}
+.heart::before{
+    content: "";
+    position:absolute;
+    background: #d16ba5;
+    height: 160px;
+    width: 100px;
+    transform: rotate(-90deg);
+    border-radius: 200px 200px 0 0;
+    left: -30px;
+    top: 30px;
+}
+.rightside{
+    margin-top: -157px;
+    color: #e40909;
+    transform: translate3d(82px, -4px, 0px);
+}

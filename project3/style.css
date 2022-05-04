@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 5rem 10rem;
+}
+#progress-bar{
+    position: fixed;
+    height: 10px;
+    width: 100%;
+    left: 0;
+    background: linear-gradient(90deg, rgba(130,114,255,1) 0%,rgba(173,29,255,1) 100%);
+    transition: width 0.3s ease-out;
+    overscroll-behavior-y: none;
+}
+@media screen and (max-width:768px) {
+    section{
+        padding:5rem;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    section{
+        padding: 5rem 2rem;
+    }
+    
+}

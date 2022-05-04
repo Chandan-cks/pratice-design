@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    margin-left: 200px;
+}
+.diamond{
+    margin-top: 60px;
+    width: 50px;
+    position: relative;
+    border-width: 0 30px 30px 30px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #FAFAFA;
+}
+.diamond:before{
+    content: "";
+    position: absolute;
+    border-width: 75px 55px 0 55px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #FAFAFA;
+    top: 30px;
+    left: -30px;
+}
+.pacman{
+    width: 0px;
+    margin-top: 87px;
+    height: 0px;
+    border: 70px solid #f7ec59;
+    border-right-color: transparent;
+    border-radius: 70px;
+}
+.star{
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 10px;
+}
